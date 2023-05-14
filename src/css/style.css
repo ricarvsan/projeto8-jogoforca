@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top {
+  display: flex;
+  height: 467px;
+  justify-content: center;
+  padding: 0px 38px 0px 53px;
+  margin-top: 59px;
+}
+
+.imgForca {
+  margin-right: 140px;
+}
+
+.forca {
+  width: 400px;
+  height: 467px;
+}
+
+.escolherPalavra {
+  width: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.btnEscolherPalavra {
+  cursor: pointer;
+  border: none;
+  background-color: #27AE60;
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 8px;
+}
+
+.letras {
+  display: flex;
+  width: 680px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.btnLetras {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #7AA7C7;
+  color: #39739D;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;  
+  text-transform: uppercase;
+  margin: 6px;
+  background-color: #9FAAB5;
+}
+
+.btnLetrasHabilitado {
+  background-color: #E1ECF4;
+  cursor: pointer;
+}
+
+.palavra {
+  height: 68px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
