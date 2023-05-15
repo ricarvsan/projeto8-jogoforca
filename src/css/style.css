@@ -87,3 +87,15 @@
   align-items: center;
   text-align: center;
 }
+
+.ganhou {
+  color: #27AE60;
+}
+
+.perdeu {
+  color: #FF0000;
+}
+
+.letraPalavra {
+  margin: 2px;
+}
