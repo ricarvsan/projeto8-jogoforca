@@ -16,7 +16,7 @@ export default function Letras({ btnClicados, setBtnClicados, setImgForca, palav
             if (novaPalavra.includes('_')) {
                 console.log('ainda nao acabo');
             } else {
-                setCorPalavra('letraPalavra ganhou');
+                setCorPalavra('palavra ganhou');
                 setBtnClicados(alfabeto);
             }
         } else {
@@ -31,7 +31,7 @@ export default function Letras({ btnClicados, setBtnClicados, setImgForca, palav
                 }
                 setPalavra(novaPalavra);
                 setBtnClicados(alfabeto);
-                setCorPalavra('letraPalavra perdeu');
+                setCorPalavra('palavra perdeu');
             }
         }
     }

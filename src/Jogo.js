@@ -15,7 +15,7 @@ export default function Jogo({ imgForca, setImgForca, palavra, setPalavra, setPa
         setBtnClicados([]);
         setQtdErros(0);
         setImgForca(imgsForca[0]);
-        setCorPalavra('letraPalavra');
+        setCorPalavra('palavra');
 
         let [palavraEscolhida] = palavras.sort(() => Math.random() - 0.5);
         setPalavraEscolhida(palavraEscolhida);
@@ -33,8 +33,8 @@ export default function Jogo({ imgForca, setImgForca, palavra, setPalavra, setPa
                 <button data-test="choose-word" className="btnEscolherPalavra" onClick={iniciaJogo}>
                     Escolher Palavra
                 </button>
-                <div className='palavra'>
-                    {palavra.map((letra, indice) => (<div data-test="word" key={indice} className={corPalavra}>{letra}</div>))}
+                <div className={corPalavra}>
+                    {palavra}                    
                 </div>
             </div>
         </div>
