@@ -33,7 +33,7 @@ export default function Jogo({ imgForca, setImgForca, palavra, setPalavra, setPa
                 <button data-test="choose-word" className="btnEscolherPalavra" onClick={iniciaJogo}>
                     Escolher Palavra
                 </button>
-                <div className={corPalavra}>
+                <div data-test="word" className={corPalavra} >
                     {palavra}                    
                 </div>
             </div>
